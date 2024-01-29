@@ -25,16 +25,20 @@
       <header>
         <img class="logo" src="images/logo/Booki.png" alt="Logo" />
         <div class="menu">
-          <a href="#ancre" class="hb">Hébergements KAKAKA KOKOKOKO kikikiki </a>
+          <a href="#ancre" class="hb">Hébergements</a>
           <a href="#ancre-2" class="at">Activités</a>
         </div>
       </header>
       <main>
         <section class="info">
-          <h2 class="section-title">
-            Trouvez votre hébergement pour des vacances de rêve
-          </h2>
-          <p class="card-subtitle">En plein centre-ville ou en pleine nature</p>
+          <div class="headline">
+            <h2 class="section-title">
+              Trouvez votre hébergement pour des vacances de rêve
+            </h2>
+            <p class="card-subtitle">
+              En plein centre-ville ou en pleine nature
+            </p>
+          </div>
           <section class="barre-recherche">
             <form class="foor" action="#" method="get">
               <label id="bel"><i class="fa-solid fa-location-dot"></i></label>
@@ -44,23 +48,33 @@
                 placeholder="Marseille, France"
                 id="lieu"
               />
-              <div id="recherche"><p>Rechercher</p></div>
+              <div id="recherche">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p id="search">
+                  Rechercher</i>
+                </p>
+              </div>
             </form>
           </section>
           <section class="section-filtre">
-            <p class="filtres"><strong>Filtres</strong></p>
+            <h3 class="title-filtre">Filtres</h3>
             <div class="choix-filtre">
-              <p class="eco">
-                <i class="fa-solid fa-money-bill-wave"></i> Economique
-              </p>
-              <p class="eco"><i class="fa-solid fa-person"></i> Familial</p>
-              <p class="eco"><i class="fa-solid fa-heart"></i> Romantique</p>
-              <p class="eco"><i class="fa-solid fa-fire"></i> Nos pépites</p>
+            <ul>
+              <div class="top-filtre">
+                  <li class="eco"><i class="fa-solid fa-money-bill-wave"></i> Economiques
+                </li>
+                <li class="eco"><i class="fa-solid fa-person"></i> Familial</li>
+              </div>
+              <div class="bottom-filtre">
+                <li class="eco"><i class="fa-solid fa-heart"></i> Romantique</li>
+                <li class="eco"><i class="fa-solid fa-fire"></i> Nos pépites</li>
+              </div>
+              </ul>
             </div>
           </section>
-          <p>
-            <i class="fa-sharp fa-solid fa-circle-info"></i> Plus de 500
-            logements sont disponibles dans cette ville
+          <p class="info-foot">
+            <i class="fa-sharp fa-solid fa-circle-info" id="infolog"></i> Plus
+            de 500 logements sont disponibles dans cette ville
           </p>
         </section>
         <div class="hebergements-and-populaires">
