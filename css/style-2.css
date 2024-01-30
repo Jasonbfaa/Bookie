@@ -190,6 +190,14 @@ ul {
   gap: 15px;
 }
 
+.top-filtre {
+  display: contents;
+}
+
+.bottom-filtre {
+  display: contents;
+}
+
 ul li {
   display: flex;
   list-style: none;
@@ -491,6 +499,14 @@ footer {
   ul {
     margin: 0px;
     padding-left: 0px;
+  }
+
+  .top-filtre {
+    display: contents;
+  }
+
+  .bottom-filtre {
+    display: contents;
   }
 
   .section-filtre {
