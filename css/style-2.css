@@ -405,7 +405,7 @@ ul li {
 }
 
 .card-bottom img {
-  width: 100%;
+  width: 297.5px;
   height: 380px;
   border-radius: 20px 20px 0px 0px;
 }
@@ -623,6 +623,15 @@ footer {
     padding: 0px, 20px, 0px, 20px;
   }
 
+  .info-foot {
+    display: flex;
+    align-items: center;
+  }
+
+  #infolog {
+    margin: 10px;
+  }
+
   .headline {
     height: 79px;
     gap: 8px;
@@ -708,6 +717,9 @@ footer {
   }
 
   .infolog {
+    display: flex;
+    align-self: center;
+    margin: 10px;
     height: 24px;
     border: 1px;
   }
@@ -718,7 +730,6 @@ footer {
 
   .hebergements {
     width: 100%;
-    display: grid;
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 0;
@@ -726,8 +737,13 @@ footer {
   }
 
   .hebergements-cards-top {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hebergements-cards-top .card {
+    width: 335px;
   }
   .hebergements-cards-column {
     display: grid;
