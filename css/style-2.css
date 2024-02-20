@@ -79,8 +79,6 @@ header {
 }
 .menu {
   display: flex;
-  justify-content: flex-end;
-  width: 344px;
   gap: 68px;
 }
 
@@ -89,14 +87,16 @@ header {
 }
 
 .hb:hover {
-  width: 113px;
-  height: 35px;
   color: #0065fc;
-  border-top: #0065fc;
+  border-top: 2px #0065fc solid;
+}
+
+.at:hover {
+  color: #0065fc;
+  border-top: 2px #0065fc solid;
 }
 
 .at {
-  width: 63px;
   height: 35px;
   border-top: #0065fc;
 }
@@ -706,7 +706,7 @@ footer {
   .fa-magnifying-glass {
     display: block;
     color: #f2f2f2;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 17px;
   }
   #recherche {
@@ -874,7 +874,7 @@ footer {
     align-items: flex-start;
 		margin-top: 35px;
 		padding: 30px;
-    height: 495px;
+    height: 600px;
     gap: 50px;
 	}
 
